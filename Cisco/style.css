@@ -17,6 +17,18 @@ a:hover {
     display: none;
 }
 
+.mostrar {
+    display: block;
+}
+
+.btnX {
+    display: none;
+}
+
+.ocultar {
+    display: none !important;
+}
+
 .header-main {
     display: flex;
     justify-content: space-between;
@@ -71,6 +83,7 @@ a:hover {
     margin-left: 0.5rem;
     cursor: pointer;
 }
+
 
 /* Estilo para el ícono de hamburguesa */
 .hamburger {

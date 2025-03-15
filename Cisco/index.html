@@ -51,7 +51,7 @@
                 </a>
             </div>
             <div class="nav-container">
-                <div class="main-nav mobile-hide">
+                <div id="mostrar" class="main-nav mobile-hide">
                     <h3 class="nav-group">
                         <button><span>Products and Services </span></button>
                         <button><span>Solutions</span></button>
@@ -69,8 +69,9 @@
                         <svg  xmlns="http://www.w3.org/2000/svg"  width="24"  height="24"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-search"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M10 10m-7 0a7 7 0 1 0 14 0a7 7 0 1 0 -14 0" /><path d="M21 21l-6 -6" /></svg>
                     </button>
                     
-                    <button class="menu-toggle">
-                        <span class="hamburger"></span>
+                    <button id="menu" class="menu-toggle">
+                        <span class="btnX">X</span>
+                        <span id="hamburgerid" class="hamburger"></span>
                     </button>
                 </div>
             </div>
@@ -319,5 +320,6 @@
             </div>
         </div>
     </footer>
+    <script src="scripts/toggleMenu.js"></script>
 </body>
 </html>
