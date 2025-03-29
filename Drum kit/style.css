@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+}
+
+.keys {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #333;
+}
+
+.key {
+    width: 4rem;
+    height: 4rem;
+    margin: 0 5px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    color: #333;
+    transition: all 0.07s;
+}
+
+.playing {
+    transform: scale(1.1);
+    background-color: #ff0;
+}
