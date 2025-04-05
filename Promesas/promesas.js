@@ -24,7 +24,11 @@ function ordenarHamburguesa(ingredientes) {
 }
 
 function manejoError(error) {
-  document.getElementById("respuesta").innerHTML = error;
+  const respuestaElement = document.getElementById("respuesta");
+  respuestaElement.innerHTML = error;
+  respuestaElement.style.backgroundColor = "#ffebee";
+  respuestaElement.style.borderLeft = "4px solid #f44336";
+  respuestaElement.style.color = "#d32f2f";
   console.log(error);
 }
 
