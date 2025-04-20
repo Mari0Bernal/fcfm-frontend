@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Parcial 2</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section class="header">
+        <div class="header1">
+            <img src="assets/Logo.png" alt="Logo" class="logo">
+            <div class="header1_content">
+                <div class="m-audio-player">
+                    <img src="assets/soundOn.png" alt="SoundOn" class="m-audio-player__icon m-audio-player__icon--active">
+                    <img src="assets/soundOff.png" alt="soundOff" class="m-audio-player__icon" style="display: none;">
+                    <audio src="assets/Sounds/zzz official web site sound.mp3" id="audioElement" loop></audio>
+                </div>
+                <button class="logInbtn">Iniciar Sesion</button>
+            </div>
+            
+        </div>
+        <h1>Fitness</h1>
+    </section>
+    <section class="main">
+        <div class="div1 Card mainDiv" onclick="seeDetails(this)">
+            <svg  xmlns="http://www.w3.org/2000/svg"  width="35"  height="35"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-ball-football"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" /><path d="M12 7l4.76 3.45l-1.76 5.55h-6l-1.76 -5.55z" /><path d="M12 7v-4m3 13l2.5 3m-.74 -8.55l3.74 -1.45m-11.44 7.05l-2.56 2.95m.74 -8.55l-3.74 -1.45" /></svg>
+            <img src="assets/mainimg/tarjetaSoccerGirl.webp" alt="tarjetaSoccerGirl" class="tarjetaSoccerGirl">
+            <div class="hoverCardH">
+                <div class="duration">
+                    90 min
+                </div>
+                <p class="description">Juego de soccer 5 contra 5</p>
+                <button class="btnCard">Iniciar reto</button>
+                <button class="btnCard">Invitar a un amigo</button>
+            </div>
+            <div class="exit">X</div>
+        </div>
+        <div class="div2 Card mainDiv" onclick="seeDetails(this)">
+            <svg  xmlns="http://www.w3.org/2000/svg"  width="35"  height="35"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-ball-tennis"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" /><path d="M6 5.3a9 9 0 0 1 0 13.4" /><path d="M18 5.3a9 9 0 0 0 0 13.4" /></svg>
+            <img src="assets/mainimg/tarjetaTennis.webp" alt="tarjetaTennis" class="tarjetaSoccerGirl">
+            <div class="hoverCardH">
+                <div class="duration">
+                    30 min
+                </div>
+                <p class="description">Partida doble de tenis 1v1</p>
+                <button class="btnCard">Iniciar reto</button>
+                <button class="btnCard">Invitar a un amigo</button>
+            </div>
+            <div class="exit">X</div>
+        </div>
+        <div class="div3 Card mainDiv" onclick="seeDetails(this)">
+            <svg  xmlns="http://www.w3.org/2000/svg"  width="35"  height="35"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-ball-football"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" /><path d="M12 7l4.76 3.45l-1.76 5.55h-6l-1.76 -5.55z" /><path d="M12 7v-4m3 13l2.5 3m-.74 -8.55l3.74 -1.45m-11.44 7.05l-2.56 2.95m.74 -8.55l-3.74 -1.45" /></svg>
+            <img src="assets/mainimg/tarjetaSoccerBoy.webp" alt="tarjetaSoccerBoy" class="tarjetaSoccerGirl">
+            <div class="hoverCardH">
+                <div class="duration">
+                    90 min
+                </div>
+                <p class="description">Juego de soccer 11v11</p>
+                <button class="btnCard">Iniciar reto</button>
+                <button class="btnCard">Invitar a un amigo</button>
+            </div>
+            <div class="exit">X</div>
+        </div>
+        <div class="div4 Card mainDiv" onclick="seeDetails(this)">
+            <svg  xmlns="http://www.w3.org/2000/svg"  width="35"  height="35"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-run"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M13 4m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" /><path d="M4 17l5 1l.75 -1.5" /><path d="M15 21l0 -4l-4 -3l1 -6" /><path d="M7 12l0 -3l5 -1l3 3l3 1" /></svg>
+            <img src="assets/mainimg/chicaPilares.webp" alt="tarjetaPilares" class="tarjetaChicaPilares">
+            <div class="hoverCardH">
+                <div class="duration">
+                    45 min
+                </div>
+                <p class="description">Rutina individual de pilares</p>
+                <button class="btnCard">Iniciar reto</button>
+                <button class="btnCard">Invitar a un amigo</button>
+            </div>
+            <div class="exit">X</div>
+        </div>
+        <div class="div5 Card mainDiv" onclick="seeDetails(this)">
+            <svg  xmlns="http://www.w3.org/2000/svg"  width="35"  height="35"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-run"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M13 4m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" /><path d="M4 17l5 1l.75 -1.5" /><path d="M15 21l0 -4l-4 -3l1 -6" /><path d="M7 12l0 -3l5 -1l3 3l3 1" /></svg>
+            <img src="assets/mainimg/chicasPushup.webp" alt="tarjetaSoccerBoy" class="tarjetaSoccerGirl">
+            <div class="hoverCardH">
+                <div class="duration">
+                    40 min
+                </div>
+                <p class="description">Rutinas de ejercicio</p>
+                <button class="btnCard">Iniciar reto</button>
+                <button class="btnCard">Invitar a un amigo</button>
+            </div>
+            <div class="exit">X</div>
+        </div>
+        <div class="div6 Card mainDiv" onclick="seeDetails(this)">
+            <svg  xmlns="http://www.w3.org/2000/svg"  width="35"  height="35"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-run"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M13 4m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" /><path d="M4 17l5 1l.75 -1.5" /><path d="M15 21l0 -4l-4 -3l1 -6" /><path d="M7 12l0 -3l5 -1l3 3l3 1" /></svg>
+            <img src="assets/mainimg/chicaRunning.webp" alt="tarjetaSoccerBoy" class="tarjetaSoccerGirl">
+            <div class="hoverCardH">
+                <div class="duration">
+                    60 min
+                </div>
+                <p class="description">Sprints de running</p>
+                <button class="btnCard">Iniciar reto</button>
+                <button class="btnCard">Invitar a un amigo</button>
+            </div>
+            <div class="exit">X</div>
+        </div>
+        <div class="div7 Card mainDiv" onclick="seeDetails(this)">
+            <svg  xmlns="http://www.w3.org/2000/svg"  width="35"  height="35"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-ball-tennis"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" /><path d="M6 5.3a9 9 0 0 1 0 13.4" /><path d="M18 5.3a9 9 0 0 0 0 13.4" /></svg>
+            <img src="assets/mainimg/tarjetaTennis.webp" alt="tarjetaTennis" class="tarjetaChicaTennis">
+            <div class="hoverCardH">
+                <div class="duration">
+                    10 min
+                </div>
+                <p class="description">Partida rapida de tenis</p>
+                <button class="btnCard">Iniciar reto</button>
+                <button class="btnCard">Invitar a un amigo</button>
+            </div>
+            <div class="exit">X</div>
+        </div>
+    </section>
+    <script src="parcial2.js"></script>
+    <script src="music.js"></script>
+</body>
+</html>
