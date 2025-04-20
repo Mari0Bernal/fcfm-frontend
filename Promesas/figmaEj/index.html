@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pedido de Hamburguesa</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Arma tu Hamburguesa</h1>
+        
+        <div class="ingredients-section">
+            <h2>Agregar ingrediente:</h2>
+            <div class="input-group">
+                <input type="text" id="ingrediente" placeholder="Ingrediente">
+                <button id="btnAgregar" class="btn">Agregar</button>
+                <button id="btnCompletar" class="btn btn-secondary">Completar pedido</button>
+            </div>
+            
+            <div class="ingredients-list">
+                <h3>Ingredientes seleccionados:</h3>
+                <ul id="listaIngredientes"></ul>
+            </div>
+        </div>
+        
+        <div class="order-preview" id="orderPreview">
+            <div class="order-image">
+                <img src="https://images.unsplash.com/photo-1568901346375-23c9450c58cd?ixlib=rb-1.2.1&auto=format&fit=crop&w=300&h=300&q=80" alt="Hamburguesa">
+            </div>
+            <div class="order-details">
+                <h3>Aquí esta tu pedido</h3>
+                <p id="pedidoFinal">🍔 con... </p>
+            </div>
+        </div>
+        
+        <div id="loading">Preparando hamburguesa...</div>
+        <div id="response" class="response"></div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
